@@ -1,0 +1,87 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.caixa {
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: inline-block;
+
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-weight: bold;
+    margin-left: 390px;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.logo {
+    margin: 40px 0 0 84px;
+}
+
+.botoes-menu {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+.botoes {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+button {   
+    width: 332px;
+    height: 70px;
+    padding: 16x;
+    border-radius: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn-menu {
+    background: #0a3871;
+    color: white;
+    margin: 10px auto;
+    height: 90px;
+    border: none
+}
+
+.btn-novo-jogo {
+    background: #0A3871;
+    color: white;
+    border: none;
+}
+
+.btn-desistir {
+    background: #E5E5E5;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #a4a4a4;
+    margin: auto;
+}

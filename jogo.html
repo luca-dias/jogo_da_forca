@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="logo.svg" class="logo">
+            <h1 class="titulo-principal">Jogo da forca</h1>
+        </div>
+    </header>
+    <main>
+        <div id="div-aparece-forca" class="canvas">
+            <canvas id="forca" height="400px" width="1200px"></canvas>
+        </div>
+        <div class="botoes">
+            <button class="btn-novo-jogo" onclick="jogar()">Novo Jogo</button>
+            <a href="index.html" ><button class="btn-desistir">Desistir</button></a>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p class="nome-rodape">Desenvolvido por Luca Dias Mendes Torres</p>
+    </footer>
+</body>
+</html>

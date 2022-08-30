@@ -1,0 +1,12 @@
+.container {
+    padding: 70px 50px;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px #000000;
+    margin-left: 390px;
+    padding-left: 20px;
+
+}
